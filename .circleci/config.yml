@@ -38,12 +38,15 @@ jobs:
             - ~/.m2
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
-      - run: ./gradlew lint
+      - run: ./gradlew lint app
       - store_artifacts:
-          path: /home/circleci/repo/app/build/reports/lint-results.xml
+          path: /home/circleci/repo/app/build/reports/*
           destination: lint-results
 
       - run: ./gradlew assembleRelease
+      - store_artifacts:
+          path: /home/circleci/repo/app/build/outputs/apk/*
+          destination: apk
 
       # run tests!
       - run: ./gradlew test
