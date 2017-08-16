@@ -38,7 +38,7 @@ jobs:
             - ~/.m2
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
-      - run: ./gradlew lint app
+      - run: ./gradlew lint
       - store_artifacts:
           path: /home/circleci/repo/app/build/reports/*
           destination: lint-results
