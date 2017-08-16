@@ -39,7 +39,9 @@ jobs:
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
       - run: ./gradlew lint
-      - run: sudo cp /home/circleci/repo/app/build/reports/lint-results.xml $CIRCLE_ARTIFACTS/lint-results.xml
+      - store_artifacts:
+          path: /home/circleci/repo/app/build/reports/lint-results.xml
+          destination: lint-results
 
       - run: ./gradlew assembleRelease
 
