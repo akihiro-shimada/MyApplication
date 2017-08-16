@@ -22,6 +22,9 @@ jobs:
       TERM: dumb
       ANDROID_HOME: /usr/local/android-sdk-linux
 
+    dependencies:
+      - chmod +x gradlew
+
     steps:
       - checkout
 
