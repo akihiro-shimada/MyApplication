@@ -23,7 +23,7 @@ jobs:
       ANDROID_HOME: /usr/local/android-sdk-linux
 
     dependencies:
-      - chmod +x gradlew
+      - chmod +x ./gradlew
 
     steps:
       - checkout
