@@ -19,11 +19,6 @@ jobs:
     environment:
       # Customize the JVM maximum heap limit
       JVM_OPTS: -Xmx3200m
-      TERM: dumb
-      ANDROID_HOME: /usr/local/android-sdk-linux
-
-    dependencies:
-      - chmod +x ./gradlew
 
     steps:
       - checkout
@@ -37,15 +32,15 @@ jobs:
 
       - run: ./gradlew dependencies
 
-      - run: ./gradlew assembleRelease
-
       - save_cache:
           paths:
             - ~/.m2
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
+      - run: ./gradlew assembleRelease
+
       # run tests!
-      - run: gradle test
+      - run: ./gradlew test
 
 
 
