@@ -1,5 +1,5 @@
 # android app demo
-edit here!!!  
+edit here
 
 ## description
 this is an android app project for demo.
