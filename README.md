@@ -1,5 +1,6 @@
 # android app demo
-edit here　修正しました
+edit here　修正しました。
+やっぱだめ
 
 ## description
 this is an android app project for demo.
