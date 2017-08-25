@@ -19,6 +19,6 @@ public class ExampleUnitTest {
     public void addition_isBad() throws Exception {
         assertEquals(4, 2 + 2);
 
-        
+
     }
 }
