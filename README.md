@@ -1,6 +1,9 @@
 # android app demo
-edit here　修正しました。
-やっぱだめ
+edit here
+<img src="http://www.hitachi-solutions.co.jp/teamforge/img/index/function07.jpg" />
+<!-- 
+<img src="http://www.hitachi-solutions.co.jp/teamforge/img/index/function05.jpg" />
+-->
 
 ## description
 this is an android app project for demo.
