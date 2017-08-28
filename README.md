@@ -1,8 +1,8 @@
 # android app demo
-edit here
-<img src="http://www.hitachi-solutions.co.jp/teamforge/img/index/function07.jpg" />
+edit here!!!
+<img src="http://www.hitachi-solutions.co.jp/jp1/sp/common/img/sn_btn_trial.gif" />
 <!-- 
-<img src="http://www.hitachi-solutions.co.jp/teamforge/img/index/function05.jpg" />
+<img src=http://www.hitachi-solutions.co.jp/jp1/sp/common/img/sn_btn_faq.gif" />
 -->
 
 ## description
