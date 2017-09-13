@@ -6,7 +6,7 @@
 -->
 
 ## description
-this is an android app project for demo.
+this is an android app project for demo. 
 
 ## demo operation
 1. create issue in JIRA.
